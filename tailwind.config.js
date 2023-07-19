@@ -20,6 +20,10 @@ module.exports = {
         bgDesktop: "url('/images/bg-intro-desktop.png')",
         bgMobile: "url('/images/bg-intro-mobile.png')",
       },
+      boxShadow: {
+        shadowTrial: "0px 0.4em 0px 0px #df6d6d",
+        shadowForm: "0px 0.4em 0px 0px #df6d6d",
+      },
     },
   },
   plugins: [],
