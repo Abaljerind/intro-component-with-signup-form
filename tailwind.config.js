@@ -17,8 +17,8 @@ module.exports = {
         bodyCopy: "16px",
       },
       backgroundImage: {
-        bgDesktop: "url(images/bg-intro-desktop.png)",
-        bgMobile: "url(images/bg-intro-mobile.png)",
+        bgDesktop: "url('/images/bg-intro-desktop.png')",
+        bgMobile: "url('/images/bg-intro-mobile.png')",
       },
     },
   },
