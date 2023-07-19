@@ -560,8 +560,13 @@ video {
   margin-bottom: 0.25rem;
 }
 
-.mt-12 {
+.my-12 {
   margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-3 {
@@ -572,8 +577,8 @@ video {
   margin-top: 1.25rem;
 }
 
-.mt-\[70px\] {
-  margin-top: 70px;
+.mt-9 {
+  margin-top: 2.25rem;
 }
 
 .hidden {
