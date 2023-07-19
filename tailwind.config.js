@@ -19,6 +19,7 @@ module.exports = {
       backgroundImage: {
         bgDesktop: "url('/images/bg-intro-desktop.png')",
         bgMobile: "url('/images/bg-intro-mobile.png')",
+        bgError: "url('/images/icon-error.svg')",
       },
       boxShadow: {
         shadowTrial: "0px 0.4em 0px 0px #df6d6d",

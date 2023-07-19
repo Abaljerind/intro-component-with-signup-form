@@ -62,9 +62,15 @@
             name="firstName"
             id="firstName"
             placeholder="First Name"
-            class="mx-auto w-full rounded-md border border-grayishBlue py-2 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue"
+            class="mx-auto w-full rounded-md border border-grayishBlue py-3 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue"
           />
-          <p class="firstName my-1 text-end text-xs italic text-red"></p>
+          <p class="firstName my-1 hidden text-end text-xs italic text-red"></p>
+
+          <div class="alert-firstName relative hidden">
+            <div
+              class="error-firstName absolute bottom-6 left-60 h-7 w-7 translate-y-1/2 bg-bgError bg-center bg-no-repeat"
+            ></div>
+          </div>
 
           <!-- last name -->
           <input
@@ -72,9 +78,15 @@
             name="lastName"
             id="lastName"
             placeholder="Last Name"
-            class="mx-auto mt-3 w-full rounded-md border border-grayishBlue py-2 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue"
+            class="mx-auto mt-3 w-full rounded-md border border-grayishBlue py-3 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue"
           />
-          <p class="lastName my-1 text-end text-xs italic text-red"></p>
+          <p class="lastName my-1 hidden text-end text-xs italic text-red"></p>
+
+          <div class="alert-lastName relative hidden">
+            <div
+              class="error-lastName absolute bottom-6 left-60 h-7 w-7 translate-y-1/2 bg-bgError bg-center bg-no-repeat"
+            ></div>
+          </div>
 
           <!-- email -->
           <input
@@ -82,9 +94,15 @@
             name="email"
             id="email"
             placeholder="Email Address"
-            class="mx-auto mt-3 w-full rounded-md border border-grayishBlue py-2 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue"
+            class="mx-auto mt-3 w-full rounded-md border border-grayishBlue py-3 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue"
           />
-          <p class="email my-1 text-end text-xs italic text-red"></p>
+          <p class="email my-1 hidden text-end text-xs italic text-red"></p>
+
+          <div class="alert-email relative hidden">
+            <div
+              class="error-email absolute bottom-6 left-60 h-7 w-7 translate-y-1/2 bg-bgError bg-center bg-no-repeat"
+            ></div>
+          </div>
 
           <!-- password -->
           <input
@@ -92,9 +110,15 @@
             name="password"
             id="password"
             placeholder="Password"
-            class="mx-auto mt-3 w-full rounded-md border border-grayishBlue py-2 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue"
+            class="mx-auto mt-3 w-full rounded-md border border-grayishBlue py-3 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue"
           />
-          <p class="password my-1 text-end text-xs italic text-red"></p>
+          <p class="password my-1 hidden text-end text-xs italic text-red"></p>
+
+          <div class="alert-password relative hidden">
+            <div
+              class="error-password absolute bottom-6 left-60 h-7 w-7 translate-y-1/2 bg-bgError bg-center bg-no-repeat"
+            ></div>
+          </div>
 
           <!-- button -->
           <button
