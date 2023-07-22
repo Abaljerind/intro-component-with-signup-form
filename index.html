@@ -43,8 +43,9 @@
       </article>
 
       <!-- TODO: 
-        1. buat efek animasi underline yang bergerak dari kiri ke kanan saat kursor di letakkan di dalam input.
-        2. lanjut javascript nya. -->
+        1. buat efek animasi underline yang bergerak dari kiri ke kanan saat kursor di letakkan di dalam input. [DONE]
+        2. lanjut javascript nya.
+        3. lanjut buat versi tablet + desktop. -->
       <div class="form-section mt-9">
         <div
           class="trial mx-auto w-80 cursor-pointer rounded-lg border-blue bg-blue px-14 py-4 shadow-shadowTrial"
@@ -133,7 +134,8 @@
             class="terms mt-3 text-center text-xs font-semibold text-grayishBlue"
           >
             By clicking the button, you are agreeing to our
-            <span class="cursor-pointer font-bold text-red"
+            <span
+              class="relative inline-block cursor-pointer font-bold text-red after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-blue after:transition-transform after:duration-300 after:ease-out after:content-[''] hover:after:origin-bottom-left hover:after:scale-x-100"
               >Terms and Services</span
             >
           </p>

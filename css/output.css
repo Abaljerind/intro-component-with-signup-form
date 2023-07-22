@@ -581,6 +581,10 @@ video {
   margin-top: 2.25rem;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .hidden {
   display: none;
 }
@@ -599,6 +603,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.origin-bottom-left {
+  transform-origin: bottom left;
 }
 
 .translate-y-1\/2 {
@@ -819,6 +827,86 @@ video {
   --tw-shadow: 0px 0.4em 0px 0px #df6d6d;
   --tw-shadow-colored: 0px 0.4em 0px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.after\:absolute::after {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:bottom-0::after {
+  content: var(--tw-content);
+  bottom: 0px;
+}
+
+.after\:left-0::after {
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.after\:h-\[2px\]::after {
+  content: var(--tw-content);
+  height: 2px;
+}
+
+.after\:w-full::after {
+  content: var(--tw-content);
+  width: 100%;
+}
+
+.after\:origin-bottom-right::after {
+  content: var(--tw-content);
+  transform-origin: bottom right;
+}
+
+.after\:scale-x-0::after {
+  content: var(--tw-content);
+  --tw-scale-x: 0;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.after\:bg-blue::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: hsl(248 32% 49% / var(--tw-bg-opacity));
+}
+
+.after\:transition-transform::after {
+  content: var(--tw-content);
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.after\:duration-300::after {
+  content: var(--tw-content);
+  transition-duration: 300ms;
+}
+
+.after\:ease-out::after {
+  content: var(--tw-content);
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.after\:content-none::after {
+  --tw-content: none;
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\'\]::after {
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.hover\:after\:origin-bottom-left:hover::after {
+  content: var(--tw-content);
+  transform-origin: bottom left;
+}
+
+.hover\:after\:scale-x-100:hover::after {
+  content: var(--tw-content);
+  --tw-scale-x: 1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .active\:border-opacity-10:active {
