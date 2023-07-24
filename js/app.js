@@ -55,7 +55,7 @@ const timeout = setInterval(() => {
   alertLastName.classList.add("hidden");
   alertEmail.classList.add("hidden");
   alertPassword.classList.add("hidden");
-}, 3500);
+}, 4250);
 
 btnClaim.addEventListener("click", function () {
   if (inputFirstName.value.length === 0) {
