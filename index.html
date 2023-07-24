@@ -26,16 +26,22 @@
     <link rel="stylesheet" href="css/output.css" />
   </head>
   <body
-    class="bg-red bg-bgMobile bg-contain bg-clip-content bg-center bg-no-repeat sm:bg-cover"
+    class="bg-red bg-bgMobile bg-contain bg-clip-content bg-center bg-no-repeat sm:bg-cover xl:bg-bgDesktop"
   >
-    <section class="my-12 font-poppins sm:mx-auto sm:w-[375px]">
-      <article>
-        <h1
-          class="mt-20 px-10 text-center text-2xl font-bold tracking-wider text-white"
+    <section
+      class="my-12 font-poppins sm:mx-auto sm:w-[375px] xl:my-0 xl:flex xl:h-screen xl:w-full xl:flex-wrap xl:items-center xl:justify-center"
+    >
+      <article class="xl:flex-1">
+        <section class="xl:w-4/5">
+          <h1
+            class="mt-20 px-10 text-center text-2xl font-bold tracking-wider text-white xl:ml-36 xl:px-0 xl:text-start xl:text-5xl"
+          >
+            Learn to code by watching others
+          </h1>
+        </section>
+        <p
+          class="mt-5 px-8 text-center text-white xl:ml-20 xl:px-16 xl:text-start xl:text-lg"
         >
-          Learn to code by watching others
-        </h1>
-        <p class="mt-5 px-8 text-center text-white">
           See how experienced developers solve problems in real-time. Watching
           scripted tutorials is great, but understanding how developers think is
           invaluable.
@@ -44,9 +50,9 @@
 
       <!-- TODO: 
         1. buat efek animasi underline yang bergerak dari kiri ke kanan saat kursor di letakkan di dalam input. [DONE]
-        2. lanjut javascript nya.
-        3. lanjut buat versi tablet + desktop. -->
-      <div class="form-section mt-9">
+        2. lanjut javascript nya [DONE]
+        3. lanjut buat versi tablet [DONE] + desktop [On Progress, bagian kanan yang form] -->
+      <div class="form-section mt-9 xl:flex-1">
         <div
           class="trial mx-auto w-80 cursor-pointer rounded-lg border-blue bg-blue px-14 py-4 shadow-shadowTrial"
         >
