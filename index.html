@@ -49,12 +49,13 @@
       </article>
 
       <!-- TODO: 
-        1. buat efek animasi underline yang bergerak dari kiri ke kanan saat kursor di letakkan di dalam input. [DONE]
+        1. buat efek animasi underline yang bergerak dari kiri ke kanan saat kursor di letakkan di dalam input [DONE]
         2. lanjut javascript nya [DONE]
-        3. lanjut buat versi tablet [DONE] + desktop [On Progress, bagian kanan yang form] -->
-      <div class="form-section mt-9 xl:flex-1">
+        3. lanjut buat versi tablet [DONE] + desktop [On Progress, tinggal turunin bagian kiri pakai mt agar sejajar dengan bagian kanan di design]
+        4. kasih efek animasi underline di bagian try it free 7 days -->
+      <div class="form-section mt-9 xl:-mt-36 xl:flex-1">
         <div
-          class="trial mx-auto w-80 cursor-pointer rounded-lg border-blue bg-blue px-14 py-4 shadow-shadowTrial"
+          class="trial mx-auto w-80 cursor-pointer rounded-lg border-blue bg-blue px-14 py-4 shadow-shadowTrial xl:w-9/12"
         >
           <p class="text-center text-bodyCopy font-normal text-white">
             <span class="font-semibold">Try it free 7 days</span> then $20/mo.
@@ -62,7 +63,7 @@
           </p>
         </div>
         <div
-          class="form-trial mx-auto mt-5 w-80 rounded-lg bg-white p-5 shadow-shadowForm"
+          class="form-trial mx-auto mt-5 w-80 rounded-lg bg-white p-5 shadow-shadowForm xl:w-9/12 xl:p-10"
         >
           <!-- firstname -->
           <input
@@ -70,13 +71,15 @@
             name="firstName"
             id="firstName"
             placeholder="First Name"
-            class="mx-auto w-full rounded-md border border-grayishBlue py-3 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue"
+            class="mx-auto w-full rounded-md border border-grayishBlue py-3 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue xl:mb-4 xl:py-4 xl:text-lg"
           />
-          <p class="firstName my-1 hidden text-end text-xs italic text-red"></p>
+          <p
+            class="firstName my-1 hidden text-end text-xs italic text-red xl:my-0 xl:-mt-3 xl:pb-2"
+          ></p>
 
           <div class="alert-firstName relative hidden">
             <div
-              class="error-firstName absolute -top-[75px] left-60 h-7 w-7 translate-y-1/2 bg-bgError bg-center bg-no-repeat"
+              class="error-firstName absolute -top-[75px] left-60 h-7 w-7 translate-y-1/2 bg-bgError bg-center bg-no-repeat xl:-top-[85px] xl:left-[450px]"
             ></div>
           </div>
 
@@ -86,13 +89,15 @@
             name="lastName"
             id="lastName"
             placeholder="Last Name"
-            class="mx-auto mt-3 w-full rounded-md border border-grayishBlue py-3 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue"
+            class="mx-auto mt-3 w-full rounded-md border border-grayishBlue py-3 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue xl:mb-4 xl:py-4 xl:text-lg"
           />
-          <p class="lastName my-1 hidden text-end text-xs italic text-red"></p>
+          <p
+            class="lastName my-1 hidden text-end text-xs italic text-red xl:my-0 xl:-mt-3 xl:pb-2"
+          ></p>
 
           <div class="alert-lastName relative hidden">
             <div
-              class="error-lastName absolute -top-[75px] left-60 h-7 w-7 translate-y-1/2 bg-bgError bg-center bg-no-repeat"
+              class="error-lastName absolute -top-[75px] left-60 h-7 w-7 translate-y-1/2 bg-bgError bg-center bg-no-repeat xl:-top-[85px] xl:left-[450px]"
             ></div>
           </div>
 
@@ -102,13 +107,15 @@
             name="email"
             id="email"
             placeholder="Email Address"
-            class="mx-auto mt-3 w-full rounded-md border border-grayishBlue py-3 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue"
+            class="mx-auto mt-3 w-full rounded-md border border-grayishBlue py-3 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue xl:mb-4 xl:py-4 xl:text-lg"
           />
-          <p class="email my-1 hidden text-end text-xs italic text-red"></p>
+          <p
+            class="email my-1 hidden text-end text-xs italic text-red xl:my-0 xl:-mt-3 xl:pb-2"
+          ></p>
 
           <div class="alert-email relative hidden">
             <div
-              class="error-email absolute -top-[75px] left-60 h-7 w-7 translate-y-1/2 bg-bgError bg-center bg-no-repeat"
+              class="error-email absolute -top-[75px] left-60 h-7 w-7 translate-y-1/2 bg-bgError bg-center bg-no-repeat xl:-top-[85px] xl:left-[450px]"
             ></div>
           </div>
 
@@ -118,13 +125,15 @@
             name="password"
             id="password"
             placeholder="Password"
-            class="mx-auto mt-3 w-full rounded-md border border-grayishBlue py-3 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue"
+            class="mx-auto mt-3 w-full rounded-md border border-grayishBlue py-3 pl-5 pr-3 text-start text-bodyCopy font-semibold text-darkBlue xl:mb-4 xl:py-4 xl:text-lg"
           />
-          <p class="password my-1 hidden text-end text-xs italic text-red"></p>
+          <p
+            class="password my-1 hidden text-end text-xs italic text-red xl:my-0 xl:-mt-3 xl:pb-2"
+          ></p>
 
           <div class="alert-password relative hidden">
             <div
-              class="error-password absolute -top-[75px] left-60 h-7 w-7 translate-y-1/2 bg-bgError bg-center bg-no-repeat"
+              class="error-password absolute -top-[75px] left-60 h-7 w-7 translate-y-1/2 bg-bgError bg-center bg-no-repeat xl:-top-[85px] xl:left-[450px]"
             ></div>
           </div>
 
