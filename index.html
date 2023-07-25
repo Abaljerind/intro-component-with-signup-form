@@ -51,15 +51,18 @@
       <!-- TODO: 
         1. buat efek animasi underline yang bergerak dari kiri ke kanan saat kursor di letakkan di dalam input [DONE]
         2. lanjut javascript nya [DONE]
-        3. lanjut buat versi tablet [DONE] + desktop [On Progress, tinggal turunin bagian kiri pakai mt agar sejajar dengan bagian kanan di design]
-        4. kasih efek animasi underline di bagian try it free 7 days -->
+        3. lanjut buat versi tablet [DONE] + desktop [DONE]
+        4. kasih efek animasi underline di bagian try it free 7 days [DONE] -->
       <div class="form-section mt-9 xl:-mt-36 xl:flex-1">
         <div
-          class="trial mx-auto w-80 cursor-pointer rounded-lg border-blue bg-blue px-14 py-4 shadow-shadowTrial xl:w-9/12"
+          class="trial mx-auto w-80 cursor-pointer rounded-lg border-blue bg-blue px-14 py-4 shadow-shadowTrial xl:mt-40 xl:w-9/12"
         >
           <p class="text-center text-bodyCopy font-normal text-white">
-            <span class="font-semibold">Try it free 7 days</span> then $20/mo.
-            thereafter
+            <span
+              class="relative inline-block font-semibold after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-red after:transition-transform after:duration-300 after:ease-out hover:after:origin-bottom-left hover:after:scale-x-100"
+              >Try it free 7 days</span
+            >
+            then $20/mo. thereafter
           </p>
         </div>
         <div

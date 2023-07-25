@@ -867,6 +867,12 @@ video {
   background-color: hsl(248 32% 49% / var(--tw-bg-opacity));
 }
 
+.after\:bg-red::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 100% 74% / var(--tw-bg-opacity));
+}
+
 .after\:transition-transform::after {
   content: var(--tw-content);
   transition-property: transform;
@@ -955,6 +961,10 @@ video {
 
   .xl\:ml-36 {
     margin-left: 9rem;
+  }
+
+  .xl\:mt-40 {
+    margin-top: 10rem;
   }
 
   .xl\:flex {
